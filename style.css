@@ -1,0 +1,48 @@
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/500/752/original/pattern-with-white-polka-dots-on-light-green-background-free-vector.jpg");
+    font-size: 20px;
+}
+
+#calc{
+    width: 500px;
+    height: 330px;
+    position:absolute;
+    top:20%;
+    left:30%;
+    background-color: rgb(255, 255, 255);
+    border: 15px solid rgb(139, 190, 155);
+}
+header{
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+form{
+    position: relative;
+    margin-top: 20px;
+}
+.key{
+    
+    width: 180px;
+    height: 130px;
+    background-color: rgb(139, 190, 155);
+    margin: 20px 20px 20px 160px;
+}
+#op{
+    position:relative;
+    
+    margin-left: 150px;
+    margin-top: -104px;
+    
+}
+#answer{
+    margin-top:10px;
+}

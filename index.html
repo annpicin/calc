@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id = "calc">
+       <header>
+        Calculator App
+        </header>
+        Type in an equation!
+        
+       
+        <div class = "key">
+          
+                <button value = "1" onclick = "add(value)"> 1 </button>
+                <button value = "2" onclick = "add(value)"> 2 </button>
+                <button value = "3" onclick = "add(value)"> 3 </button>
+                <br>
+                <button value = "4" onclick = "add(value)"> 4 </button>
+                <button value = "5" onclick = "add(value)"> 5 </button>
+                <button value = "6" onclick = "add(value)"> 6 </button>
+                
+                <br>
+                <button value = "7" onclick = "add(value)"> 7 </button>
+                <button value = "8" onclick = "add(value)"> 8 </button>
+                <button value = "9" onclick = "add(value)"> 9 </button>
+                <br>
+                <button value = "0" onclick = "add(value)"> 0 </button>
+    
+                <div id = "op">
+                    <button value = "+" onclick = "add(value)"> + </button>
+                    <br>
+                    <button value = "-" onclick = "add(value)"> - </button>
+                    <br>
+                    <button value = "*" onclick = "add(value)"> * </button>
+                    <br>
+                    <button value = "/" onclick = "add(value)"> / </button>
+                    <br>
+                    <button value = "=" onclick = "equal()"> = </button>
+        
+                </div>
+        </div>
+        
+        
+
+        <form>
+            <input type="text" id="input_id" value="">
+            <input type="button" value="Submit" onclick="doMath()" />
+            <div id="alert" style="color: red"></div>
+        </form>
+        
+        <div id ="answer">
+            
+        </div> 
+
+    </div>
+    
+</body>
+</html>
